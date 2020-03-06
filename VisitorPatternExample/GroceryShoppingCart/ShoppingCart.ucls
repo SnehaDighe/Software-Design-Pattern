@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="edu.bu.met.cs665.GroceryShoppingCart.DiaryProducts"
+    project="met-cs665-assignment-project-sdighe-ctrl-master" 
+    file="/met-cs665-assignment-project-sdighe-ctrl-master/src/main/java/edu/bu/met/cs665/GroceryShoppingCart/DiaryProducts.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="62" y="430"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="edu.bu.met.cs665.GroceryShoppingCart.GroceryItem" 
+    project="met-cs665-assignment-project-sdighe-ctrl-master" 
+    file="/met-cs665-assignment-project-sdighe-ctrl-master/src/main/java/edu/bu/met/cs665/GroceryShoppingCart/GroceryItem.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="238" x="230" y="205"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="edu.bu.met.cs665.GroceryShoppingCart.GroceryShoppingCartVisitor" 
+    project="met-cs665-assignment-project-sdighe-ctrl-master" 
+    file="/met-cs665-assignment-project-sdighe-ctrl-master/src/main/java/edu/bu/met/cs665/GroceryShoppingCart/GroceryShoppingCartVisitor.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="483" y="102"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="edu.bu.met.cs665.GroceryShoppingCart.GroceryShoppingClient" 
+    project="met-cs665-assignment-project-sdighe-ctrl-master" 
+    file="/met-cs665-assignment-project-sdighe-ctrl-master/src/main/java/edu/bu/met/cs665/GroceryShoppingCart/GroceryShoppingClient.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="658" y="262"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="edu.bu.met.cs665.GroceryShoppingCart.GroceryShoppingVisitor" 
+    project="met-cs665-assignment-project-sdighe-ctrl-master" 
+    file="/met-cs665-assignment-project-sdighe-ctrl-master/src/main/java/edu/bu/met/cs665/GroceryShoppingCart/GroceryShoppingVisitor.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="150" y="99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="edu.bu.met.cs665.GroceryShoppingCart.Snacks" 
+    project="met-cs665-assignment-project-sdighe-ctrl-master" 
+    file="/met-cs665-assignment-project-sdighe-ctrl-master/src/main/java/edu/bu/met/cs665/GroceryShoppingCart/Snacks.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="651" y="470"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="edu.bu.met.cs665.GroceryShoppingCart.Vegetable" 
+    project="met-cs665-assignment-project-sdighe-ctrl-master" 
+    file="/met-cs665-assignment-project-sdighe-ctrl-master/src/main/java/edu/bu/met/cs665/GroceryShoppingCart/Vegetable.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="328" y="503"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <realization id="10">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="11">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="12">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
